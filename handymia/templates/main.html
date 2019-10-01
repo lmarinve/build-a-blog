@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HandyMia</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/font-awesome.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/normalize.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body class="loading">
+  <div class="header">
+    <a href="#"><img src="{{ url_for('static', filename='images/handymia.jpg') }}" alt="Handymia"
+                     style="max-width: 80px; margin-bottom: -7px">
+    </a>
+    <div class="header-right">
+      <a href="/">Home</a>
+      <a href="/contact">Contact</a>
+      <a href="/about">About us</a>
+      <a href="/login">Login</a>
+    </div>
+  </div>
+  <div>
+  <div class="topnav nav-pills" id="myTopnav">
+    <a href="#home" class="active">Home</a>
+    <div class="dropdown">
+        <button class="dropbtn">Projects
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#pergola">Pergolas</a>
+          <a href="#tv-mount">TV Mounting</a>
+          <a href="#light">Light Fixtures and Fans</a>
+        </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Services
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#handyman">Handyman</a>
+        <a href="#plumbing">Plumbing</a>
+        <a href="#electric">Electric</a>
+        <a href="#paint">Paint</a>
+        <a href="#moving">Moving Help</a>
+        <a href="#transport">Transport</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Remodeling
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#bathroom">Bathroom</a>
+        <a href="#kitchen">Kitchen</a>
+        <a href="#roofing">Roofing</a>
+        <a href="#windows">Windows</a>
+      </div>
+    </div>
+    <a href="#shop">Shop</a>
+  </div>
+	<main>
+		 <article>
+				<section>
+					<a id="home"></a>
+          <h1><strong>Handyman, Repair, Maintenance, Projects, Remodeling and Transport Services</strong></h1>
+          <p><strong>We can offer different kind of general and specialized handyman and Engineers.
+            On the list you can check their profiles and select one nears you</strong></p>
+					<figure>
+						<img src="{{ url_for('static', filename='images/kendall_r.jpg') }}"
+                 alt="Subject to 123RF.com terms non-exclusive, royalty-free, worldwide, perpetual, non-transferable sub-license to use, Reproduce, modify, publish and display" />
+						<figcaption><a href="https://www.123rf.com/photo_93268890_typical-gated-community-houses-with-palms-and-asphalt-road-south-florida.html">
+              Repair and Maintenance
+            </a></figcaption>
+					</figure>
+				</section>
+        <section>
+          <a id="pergola"></a>
+          <h1><strong>A pergola is a structure that won't provide shelter from wind or rain</strong></h1>
+          <p><strong>And is only marginally better when it comes to the midday sun. So, why build it?</strong></p>
+          <ul>
+            <li><strong>
+              Because in the absence of walls and a roof, a pergola defines an outdoor space without constraining it.
+            </strong></li>
+            <li><strong>
+              It's a unique architectural blend that places you both inside and out at the same time.
+            </strong></li>
+            <li><strong>
+              It's just the thing to bring backyard landscaping to life.
+            </strong></li>
+            <li><strong>
+              Pergolas were common features of Italian Renaissance gardens, often covering walkways or serving as grape arbors.
+            </strong></li>
+            <li><strong>
+              Today, the same design can be used to define a passageway or frame a focal point in your yard.
+            </strong></li>
+            <li><strong>
+              Add a climbing plant such as wisteria or, yes, grapevines, and your pergola will provide color and shade as well.
+            </strong></li>
+          </ul>
+          <figure>
+            <img src="{{ url_for('static', filename='images/pergola-main_r.jpg') }}" width="427" height="281"
+                 alt="Subject to 123RF.com terms non-exclusive, royalty-free, worldwide, perpetual, non-transferable sub-license to use, Reproduce, modify, publish and display" />
+            <figcaption><a href="https://www.popularmechanics.com/home/how-to-plans/how-to/a760/how-to-build-a-pergola-plans">
+              How to Build a Pergola Right in your Backyard
+            </a></figcaption>
+          </figure>
+        </section>
+        <section>
+           <a id="tv-mount"></a>
+          <h1><strong>Mounting a tv on the wall</strong></h1>
+          <p><strong>Save floor space and create an elegant look in your home when you install a TV wall mount.
+          </strong></p>
+          <ol>
+            <li><strong>
+              This will elevate your TV so there’s not a bad seat in the house.
+            </strong></li>
+            <li><strong>
+              Standard TV mounts keep the television in a stationary position, flush against the wall.
+            </strong></li>
+            <li><strong>
+              An adjustable swivel TV mount allows you to manually angle the TV once it’s mounted.
+            </strong></li>
+          </ol>
+          <figure>
+            <video width="420" height="280" controls><source src="{{ url_for('static', filename='video/mount_tv.mp4') }}"
+             type="video/mp4">
+            </video>
+            <figcaption><a href="https://www.homedepot.com/c/ah/how-to-mount-a-flat-screen-tv/9ba683603be9fa5395fab902b628783">
+              How to Mount a tv on the wall
+            </a></figcaption>
+          </figure>
+        </section>
+        <section>
+           <a id="light"></a>
+           <h1><strong>If you're looking for:</strong></h1>
+           <p><strong>safe, reliable and professional light fixture installation help.</strong></p>
+           <p><strong>HandyMia can connect you with the right electrician for you.</strong></p>
+           <figure>
+             <img src="{{ url_for('static', filename='images/lightfixtures.jpg') }}" width="150" height="200"
+                  alt="Subject to 123RF.com terms non-exclusive, royalty-free, worldwide, perpetual, non-transferable sub-license to use, Reproduce, modify, publish and display" />
+             <figcaption><a href="https://https://www.homedepot.com/c/ah/how-to-install-a-light-fixture/9ba683603be9fa5395fab90eec2fb1f">Light Fixtures and Ceiling Fans</a></figcaption>
+           </figure>
+        </section>
+     </article>
+    </main>
+  </div>
+</body>
+</html>

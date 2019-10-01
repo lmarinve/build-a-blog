@@ -1,0 +1,462 @@
+body {
+/*font: normal normal 15px Arial, Tahoma, Helvetica, FreeSans, sans-serif;*/
+  margin: 0;
+  color: #333333;
+  background: #111111 url(//themes.googleusercontent.com/image?id=1OACCYOE0-eoTRTfsBuX1NMN9nz599ufI1Jh0CggPFA_sK80AGkIr8pLtYRpNUKPmwtEa) repeat-x fixed top center;
+  background: fixed;
+  background-image: url(http://4.bp.blogspot.com/-h7KzupPRZTU/UqI1RejUVYI/AAAAAAAADb0/-08ZgzT779s/s1600/coolcolourbackground+images.png); /* fallback */
+  background-image: url(http://4.bp.blogspot.com/-h7KzupPRZTU/UqI1RejUVYI/AAAAAAAADb0/-08ZgzT779s/s1600/coolcolourbackground+images.png), -moz-linear-gradient(left, #f96969 0%, #f97969 7%, #f9ad69 17%, #fbc765 34%, #fbd665 43%, #eadd69 48%, #bee375 58%, #aae77f 63%, #a0f091 70%, #9ef8ab 80%, #99fbb4 84%, #8dfbbd 88%, #70f5c7 95%, #63f2cb 100%);
+  background-image: url(http://4.bp.blogspot.com/-h7KzupPRZTU/UqI1RejUVYI/AAAAAAAADb0/-08ZgzT779s/s1600/coolcolourbackground+images.png), -webkit-gradient(linear, left top, right top, color-stop(0%, #f96969), color-stop(7%, #f97969), color-stop(17%, #f9ad69), color-stop(34%, #fbc765), color-stop(43%, #fbd665), color-stop(48%, #eadd69), color-stop(58%, #bee375), color-stop(63%, #aae77f), color-stop(70%, #a0f091), color-stop(80%, #9ef8ab), color-stop(84%, #99fbb4), color-stop(88%, #8dfbbd), color-stop(95%, #70f5c7), color-stop(100%, #63f2cb));
+  background-image: url(http://4.bp.blogspot.com/-h7KzupPRZTU/UqI1RejUVYI/AAAAAAAADb0/-08ZgzT779s/s1600/coolcolourbackground+images.png), -webkit-linear-gradient(left, #f96969 0%, #f97969 7%, #f9ad69 17%, #fbc765 34%, #fbd665 43%, #eadd69 48%, #bee375 58%, #aae77f 63%, #a0f091 70%, #9ef8ab 80%, #99fbb4 84%, #8dfbbd 88%, #70f5c7 95%, #63f2cb 100%);
+  background-image: url(http://4.bp.blogspot.com/-h7KzupPRZTU/UqI1RejUVYI/AAAAAAAADb0/-08ZgzT779s/s1600/coolcolourbackground+images.png), -o-linear-gradient(left, #f96969 0%, #f97969 7%, #f9ad69 17%, #fbc765 34%, #fbd665 43%, #eadd69 48%, #bee375 58%, #aae77f 63%, #a0f091 70%, #9ef8ab 80%, #99fbb4 84%, #8dfbbd 88%, #70f5c7 95%, #63f2cb 100%);
+  background-image: url(http://4.bp.blogspot.com/-h7KzupPRZTU/UqI1RejUVYI/AAAAAAAADb0/-08ZgzT779s/s1600/coolcolourbackground+images.png), -ms-linear-gradient(left, #f96969 0%, #f97969 7%, #f9ad69 17%, #fbc765 34%, #fbd665 43%, #eadd69 48%, #bee375 58%, #aae77f 63%, #a0f091 70%, #9ef8ab 80%, #99fbb4 84%, #8dfbbd 88%, #70f5c7 95%, #63f2cb 100%);
+  background-image: url(http://4.bp.blogspot.com/-h7KzupPRZTU/UqI1RejUVYI/AAAAAAAADb0/-08ZgzT779s/s1600/coolcolourbackground+images.png) scroll;, linear-gradient(to right, #f96969 0 %, #f97969 7 %, #f9ad69 17 %, #fbc765 34 %, #fbd665 43 %, #eadd69 48 %, #bee375 58 %, #aae77f 63 %, #a0f091 70 %, #9ef8ab 80 %, #99fbb4 84 %, #8dfbbd 88 %, #70f5c7 95 %, #63f2cb 100 %);
+}
+html body .region-inner {
+min-width: 0;
+max-width: 100%;
+width: auto;
+}
+/* form
+----------------------------------------------- */
+form {
+  background-color: #eee;
+  padding: 20px;
+  margin: 0 auto;
+  width: 440px;
+  font: 16px sans-serif;
+  border-radius: 10px;
+}
+textarea {
+  margin: 10px 0;
+  width: 400px;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+/* a
+----------------------------------------------- */
+.content-outer {
+font-size: 90%;
+}
+a:link {
+text-decoration:none;
+color: #336699;
+}
+a:visited {
+text-decoration:none;
+color: #6699cc;
+}
+a:hover {
+text-decoration:underline;
+color: #33aaff;
+}
+.content-outer {
+background: transparent none repeat scroll top left;
+-moz-border-radius: 0;
+-webkit-border-radius: 0;
+-goog-ms-border-radius: 0;
+border-radius: 0;
+-moz-box-shadow: 0 0 0 rgba(0, 0, 0, .15);
+-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .15);
+-goog-ms-box-shadow: 0 0 0 rgba(0, 0, 0, .15);
+box-shadow: 0 0 0 rgba(0, 0, 0, .15);
+margin: 20px auto;
+}
+.content-inner {
+padding: 0;
+}
+/* Header
+----------------------------------------------- */
+.header-outer {
+background: transparent none repeat-x scroll top left;
+_background-image: none;
+color: #ffffff;
+-moz-border-radius: 0;
+-webkit-border-radius: 0;
+-goog-ms-border-radius: 0;
+border-radius: 0;
+}
+.Header img, .Header #header-inner {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 5px;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  -goog-ms-border-radius: 0;
+  border-radius: 0;
+}
+.Header h1 {
+font: normal normal 36px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+.Header h1 a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+.header a.hoover {
+  background-color: #ddd;
+  color: black;
+}
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+.header-right {
+  float: right;
+}
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+./*Header .description {
+font-size: 130%;
+}*/
+/* Tabs
+----------------------------------------------- */
+.tabs-inner {
+margin: .5em 20px 0;
+padding: 0;
+}
+.tabs-inner .section {
+margin: 0;
+}
+.tabs-inner .widget ul {
+padding: 0;
+background: transparent none repeat scroll bottom;
+-moz-border-radius: 0;
+-webkit-border-radius: 0;
+-goog-ms-border-radius: 0;
+border-radius: 0;
+}
+.tabs-inner .widget li {
+border: none;
+}
+.tabs-inner .widget li a {
+display: inline-block;
+padding: .5em 1em;
+margin-right: .25em;
+color: #ffffff;
+font: normal normal 15px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+-moz-border-radius: 10px 10px 0 0;
+-webkit-border-top-left-radius: 10px;
+-webkit-border-top-right-radius: 10px;
+-goog-ms-border-radius: 10px 10px 0 0;
+border-radius: 10px 10px 0 0;
+background: transparent url(//www.blogblog.com/1kt/transparent/black50.png) repeat scroll top left;
+border-right: 1px solid transparent;
+}
+.tabs-inner .widget li:first-child a {
+padding-left: 1.25em;
+-moz-border-radius-topleft: 10px;
+-moz-border-radius-bottomleft: 0;
+-webkit-border-top-left-radius: 10px;
+-webkit-border-bottom-left-radius: 0;
+-goog-ms-border-top-left-radius: 10px;
+-goog-ms-border-bottom-left-radius: 0;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 0;
+}
+.tabs-inner .widget li.selected a,
+.tabs-inner .widget li a:hover {
+position: relative;
+z-index: 1;
+background: transparent url(//www.blogblog.com/1kt/transparent/white80.png) repeat scroll bottom;
+color: #336699;
+-moz-box-shadow: 0 0 3px rgba(0, 0, 0, .15);
+-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .15);
+-goog-ms-box-shadow: 0 0 3px rgba(0, 0, 0, .15);
+box-shadow: 0 0 3px rgba(0, 0, 0, .15);
+}
+/* Headings
+----------------------------------------------- */
+h2 {
+font: bold normal 13px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+text-transform: uppercase;
+color: #888888;
+margin: .5em 0;
+}
+/* Main
+----------------------------------------------- */
+.main-outer {
+background: transparent url(http://2.bp.blogspot.com/-_axW0fhAC2Y/UqPOKPHt6EI/AAAAAAAADeg/0FbGNIS9E2o/s1600/mainbody2.png) repeat scroll top left;
+-moz-border-radius: 0px 0px 0 0;
+-webkit-border-top-left-radius: 0px;
+-webkit-border-top-right-radius: 0px;
+-webkit-border-bottom-left-radius: 0;
+-webkit-border-bottom-right-radius: 0;
+-goog-ms-border-radius: 0px 0px 0 0;
+border-radius: 0px 0px 0 0;
+-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
+-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
+-goog-ms-box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
+box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
+}
+.main-inner {
+padding: 15px 20px 20px;
+}
+.main-inner .column-center-inner {
+padding: 0 0;
+}
+.main-inner .column-left-inner {
+padding-left: 0;
+}
+.main-inner .column-right-inner {
+padding-right: 0;
+}
+/* Nav
+----------------------------------------------- */
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+/* Dropdown container - needed to position the dropdown content */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Style the dropdown button to fit inside the topnav */
+.dropdown .dropbtn {
+  font-size: 17px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a dark background on topnav links and the dropdown button on hover */
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+/* Add a grey background to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Show the dropdown menu when the user moves the mouse over the dropdown button */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+/* Posts
+----------------------------------------------- */
+h3.post-title {
+margin: 0;
+font: normal normal 18px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+}
+.comments h4 {
+margin: 1em 0 0;
+font: normal normal 18px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+}
+.date-header span {
+color: #333333;
+}
+.post-outer {
+background-color: #ffffff;
+border: solid 1px transparent;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+-goog-ms-border-radius: 5px;
+padding: 15px 20px;
+margin: 0 -20px 20px;
+}
+.post-body {
+line-height: 1.4;
+font-size: 110%;
+position: relative;
+}
+.post-header {
+margin: 0 0 1.5em;
+color: #999999;
+line-height: 1.6;
+}
+.post-footer {
+margin: .5em 0 0;
+color: #999999;
+line-height: 1.6;
+}
+#blog-pager {
+font-size: 140%
+}
+#comments .comment-author {
+padding-top: 1.5em;
+border-top: dashed 1px #ccc;
+border-top: dashed 1px rgba(128, 128, 128, .5);
+background-position: 0 1.5em;
+}
+#comments .comment-author:first-child {
+padding-top: 0;
+border-top: none;
+}
+.avatar-image-container {
+margin: .2em 0 0;
+}
+/* Comments
+----------------------------------------------- */
+.comments .comments-content .icon.blog-author {
+background-repeat: no-repeat;
+background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEgAACxIB0t1+/AAAAAd0SU1FB9sLFwMeCjjhcOMAAAD+SURBVDjLtZSvTgNBEIe/WRRnm3U8RC1neQdsm1zSBIU9VVF1FkUguQQsD9ITmD7ECZIJSE4OZo9stoVjC/zc7ky+zH9hXwVwDpTAWWLrgS3QAe8AZgaAJI5zYAmc8r0G4AHYHQKVwII8PZrZFsBFkeRCABYiMh9BRUhnSkPTNCtVXYXURi1FpBDgArj8QU1eVXUzfnjv7yP7kwu1mYrkWlU33vs1QNu2qU8pwN0UpKoqokjWwCztrMuBhEhmh8bD5UDqur75asbcX0BGUB9/HAMB+r32hznJgXy2v0sGLBcyAJ1EK3LFcbo1s91JeLwAbwGYu7TP/3ZGfnXYPgAVNngtqatUNgAAAABJRU5ErkJggg==);
+}
+.comments .comments-content .loadmore a {
+border-top: 1px solid #33aaff;
+border-bottom: 1px solid #33aaff;
+}
+.comments .continue {
+border-top: 2px solid #33aaff;
+}
+/* Widgets
+----------------------------------------------- */
+.widget ul, .widget #ArchiveList ul.flat {
+padding: 0;
+list-style: none;
+}
+.widget ul li, .widget #ArchiveList ul.flat li {
+border-top: dashed 1px #ccc;
+border-top: dashed 1px rgba(128, 128, 128, .5);
+}
+.widget ul li:first-child, .widget #ArchiveList ul.flat li:first-child {
+border-top: none;
+}
+.widget .post-body ul {
+list-style: disc;
+}
+.widget .post-body ul li {
+border: none;
+}
+/* Footer
+----------------------------------------------- */
+.footer-outer {
+color:#cccccc;
+background: transparent url(//www.blogblog.com/1kt/transparent/black50.png) repeat scroll top left;
+-moz-border-radius: 0 0 20px 20px;
+-webkit-border-top-left-radius: 0;
+-webkit-border-top-right-radius: 0;
+-webkit-border-bottom-left-radius: 20px;
+-webkit-border-bottom-right-radius: 20px;
+-goog-ms-border-radius: 0 0 20px 20px;
+border-radius: 0 0 20px 20px;
+-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
+-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
+-goog-ms-box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
+box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
+}
+.footer-inner {
+padding: 10px 20px 20px;
+}
+.footer-outer a {
+color: #99ccee;
+}
+.footer-outer a:visited {
+color: #77aaee;
+}
+.footer-outer a:hover {
+color: #33aaff;
+}
+.footer-outer .widget h2 {
+color: #aaaaaa;
+}

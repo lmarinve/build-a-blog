@@ -1,0 +1,30 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+flask = "*"
+jsonify = "*"
+flask-restful = "*"
+requests = "*"
+flask-limiter = "*"
+flask-wtf = "*"
+flask-sqlalchemy = "*"
+flask-migrate = "*"
+gunicorn = "*"
+click = "*"
+itsdangerous = "*"
+jinja2 = "*"
+markupsafe = "*"
+tk = "*"
+werkzeug = "*"
+python-dotenv = "*"
+flask_sqlalchemy = "*"
+sqlalchemy = "*"
+ibm-db = "*"
+
+[requires]
+python_version = "3.6"
