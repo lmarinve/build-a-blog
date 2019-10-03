@@ -8,7 +8,8 @@ class LoginForm(FlaskForm):
                                         message='Little short'), Length(max=20, message=u'too long'),
                                         validators.Regexp('^[A-Za-z]*$', message='Must have only letters')])
     password = PasswordField('New Password', [
-        validators.DataRequired(),
+        validators.DataRequired(), validators.Length(min=3,
+                                                     message='Little short'), Length(max=20, message=u'too long'),
         validators.EqualTo('confirm', message='Passwords must match')
     ])
     confirm = PasswordField('Repeat Password')
