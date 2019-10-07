@@ -4,6 +4,8 @@ basedir = os.path.abspath(os.path.dirname(__file__))
 
 class Config:
     SECRET_KEY = os.environ.get('SECRET_KEY') or 'hard to guess string'
+    SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL') or \
+        'ibm_db_sa://db2inst1:db2inst1@handymia.com:50000/handymia'
     SQLALCHEMY_COMMIT_ON_TEARDOWN = True
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     MAIL_SERVER = 'smtp.googlemail.com'
