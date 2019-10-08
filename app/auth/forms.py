@@ -14,12 +14,29 @@ class LoginForm(FlaskForm):
 
 
 class RegistrationForm(FlaskForm):
-    email = StringField('Email', validators=[Required(), Length(1, 64),
-                                           Email()])
+    email = StringField('Email', validators=[Required(),
+                                             Length(min=10, message='too short'),
+                                             Length(max=32, message='too long'),
+                                             Email()])
     username = StringField('Username', validators=[
-        Required(), Length(1, 64), Regexp('^[A-Za-z][A-Za-z0-9_.]*$', 0,
-                                          'Usernames must have only letters, '
-                                          'numbers, dots or underscores')])
+        Required(), Length(min=3, message='too short'), Length(max=20,
+                                                               message='too long'),
+        Regexp('^[A-Za-z][A-Za-z0-9_.]*$', 0,
+               'Usernames must have only letters, '
+               'numbers, dots or underscores')])
+    first_name = StringField('Firstname', validators=[
+        Required(), Length(min=3, message='too short'), Length(max=15,
+                                                               message='too long'),
+        Regexp('^[A-Za-z][A-Za-z0-9_.]*$', 0,
+               'names must have only letters, '
+               'numbers, dots or underscores')])
+    last_name = StringField('Lastname', validators=[
+        Required(), Length(min=3, message='too short'), Length(max=15,
+                                                               message='too long'),
+        Regexp('^[A-Za-z][A-Za-z0-9_.]*$', 0,
+               'names must have only letters, '
+               'numbers, dots or underscores')])
+
     password = PasswordField('Password', validators=[
         Required(), EqualTo('password2', message='Passwords must match.')])
     password2 = PasswordField('Confirm password', validators=[Required()])
@@ -43,13 +60,13 @@ class ChangePasswordForm(FlaskForm):
 
 
 class PasswordResetRequestForm(FlaskForm):
-    email = StringField('Email', validators=[Required(), Length(1, 64),
+    email = StringField('Email', validators=[Required(), Length(1, 32),
                                              Email()])
     submit = SubmitField('Reset Password')
 
 
 class PasswordResetForm(FlaskForm):
-    email = StringField('Email', validators=[Required(), Length(1, 64),
+    email = StringField('Email', validators=[Required(), Length(1, 32),
                                              Email()])
     password = PasswordField('New Password', validators=[
         Required(), EqualTo('password2', message='Passwords must match')])

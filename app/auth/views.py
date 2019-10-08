@@ -53,7 +53,9 @@ def register():
     if form.validate_on_submit():
         user = User(email=form.email.data,
                     username=form.username.data,
-                    password=form.password.data)
+                    password=form.password.data,
+                    first_name=form.first_name.data,
+                    last_name=form.last_name.data)
         db.session.add(user)
         db.session.commit()
         token = user.generate_confirmation_token()
@@ -82,7 +84,7 @@ def resend_confirmation():
     token = current_user.generate_confirmation_token()
     send_email(current_user.email, 'Confirm Your Account',
                'auth/email/confirm', user=current_user, token=token)
-    flash('A new confirmation email has been sent to you by email.')
+    flash('A new confirmation email has been sent to you by email!')
     return redirect(url_for('main.index'))
 
 
